@@ -1,5 +1,35 @@
-﻿//Anirml's Loot filter
+//Edited Anirml's and Darkingales Loot filter
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
+
+//LivEisJeebus shop lines big thanks to him for these lines
+ItemDisplay[CL5 (CLSK6>0 AND SK271>2)]: %RED%¤¤¤¤¤ %PURPLE%LIGHT CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %RED%¤¤¤¤¤ %PURPLE%LIGHT CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>0 AND SK271>2)]: %RED%¤¤¤¤¤ %PURPLE%LIGHT CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>1 AND SK271>1)]: %RED%¤¤¤¤¤ %PURPLE%LIGHT CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>0 AND SK262>2)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>1 AND SK262>1)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>0 AND SK262>2)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>1 AND SK262>1)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>0 AND SK272>2)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>1 AND SK272>1)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>0 AND SK272>2)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>1 AND SK272>1)]: %RED%¤¤¤¤¤ %PURPLE%FIRE CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>0 AND SK277>2)]: %RED%¤¤¤¤¤ %PURPLE%BLADESHIELD CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>1 AND SK277>1)]: %RED%¤¤¤¤¤ %PURPLE%BLADESHIELD CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>0 AND SK277>2)]: %RED%¤¤¤¤¤ %PURPLE%BLADESHIELD CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK48>1 AND SK277>1)]: %RED%¤¤¤¤¤ %PURPLE%BLADESHIELD CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>0 AND SK278>2)]: %RED%¤¤¤¤¤ %PURPLE%VENOM CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (CLSK6>1 AND SK278>1)]: %RED%¤¤¤¤¤ %PURPLE%VENOM CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK49>0 AND SK278>2)]: %RED%¤¤¤¤¤ %PURPLE%VENOM CLAW%RED% ¤¤¤¤¤
+ItemDisplay[CL5 (TABSK49>1 AND SK278>1)]: %RED%¤¤¤¤¤ %PURPLE%VENOM CLAW%RED% ¤¤¤¤¤
+
+//Shopping
+ItemDisplay[MAG WP5 ID TABSK34=3]: %RED%¤¤¤¤¤ %PURPLE%BO STICK%RED% ¤¤¤¤¤
+ItemDisplay[MAG CL5 ID TABSK48=3]: %RED%¤¤¤¤¤ %PURPLE%TRAP CLAW%RED% ¤¤¤¤¤
+ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %RED%¤¤¤¤¤ %PURPLE%BOW GLOVE%RED% ¤¤¤¤¤
+ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %RED%¤¤¤¤¤ %PURPLE%JAVA GLOVE%RED% ¤¤¤¤¤
+ItemDisplay[MAG WP13(TABSK24=3 AND SK121=3)]: %RED%¤¤¤¤¤ %PURPLE%FOH WEP%RED% ¤¤¤¤¤
+ItemDisplay[MAG WP13(TABSK25=3 AND SK119=3)]: %RED%¤¤¤¤¤ %PURPLE%SANC AURA WEP%RED% ¤¤¤¤¤
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
